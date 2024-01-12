@@ -44,6 +44,8 @@ Consumindo a [API](https://www.postman.com/gold-eclipse-54591/workspace/processo
 
 2 - Abrir o navegador na URL "http://localhost:4200/".
 
+A aplicação utiliza o serviço proxy nativo do WebPack.
+
 <h2 tabindex="-1" dir="auto"><a id="user-content--built-with" class="anchor" aria-hidden="true" tabindex="-1" href="#-built-with">🔧 Built With 🔧</h2>
 
 [![Html][Html.org]][Html-url]
