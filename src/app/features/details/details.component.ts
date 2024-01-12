@@ -35,7 +35,6 @@ export class DetailsComponent {
       .pipe(takeUntil(this.unsubscribe))
       .subscribe((data) => {
         this.person = data;
-        console.log(data)
       });
   }
 

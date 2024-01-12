@@ -44,24 +44,9 @@
   display: inline-block;
   font-size: 16px;
   border-radius: 8px;
+  cursor: pointer;
 }
 
-/* .form-filter {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-} */
-
-/* .form-filter {
-  input[type="text"],
-  input[type="number"],
-  select,
-  textarea {
-    padding: 12px;
-    border-radius: 4px;
-  }
-} */
-
 input[type="number"] {
-  width: 30px;
+  width: 65px;
 }
