@@ -40,7 +40,7 @@ Consumindo a [API](https://www.postman.com/gold-eclipse-54591/workspace/processo
 <!-- USAGE EXAMPLES -->
 <h2 tabindex="-1" dir="auto"><a id="user-content--usage" class="anchor" aria-hidden="true" tabindex="-1" href="#-usage">⚡ Usage ⚡</h2>
 
-Executar no terminal da raiz do projeto o comando "npm run start".
+Executar no terminal na raiz do projeto o comando "npm run start".
 
 <h2 tabindex="-1" dir="auto"><a id="user-content--built-with" class="anchor" aria-hidden="true" tabindex="-1" href="#-built-with">🔧 Built With 🔧</h2>
 
