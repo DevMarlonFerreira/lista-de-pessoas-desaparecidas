@@ -1,19 +1,17 @@
-<h2>
-  Filtragem
-</h2>
+<h2>Filtragem</h2>
 <form class="form-filter">
-  <label for="fname">Nome:</label>
-  <input type="text" id="search" name="nome" [(ngModel)]="nome" />
-  <label for="fname">Idade:</label>
+    <label for="fname">Nome:</label>
+    <input type="text" id="search" name="nome" [(ngModel)]="nome" />
+    <label for="fname">Idade:</label>
+    <input id="idade" name="idade" type="number" [(ngModel)]="idade" />
+    <label for="fname">Sexo:</label>
+    <input type="text" id="sexo" name="sexo" [(ngModel)]="sexo" />
   <input
-    id="idade"
-    name="idade"
-    type="number"
-    [(ngModel)]="idade"
+    (click)="filter()"
+    type="submit"
+    value="Filtrar"
+    class="filter-input"
   />
-  <label for="fname">Sexo:</label>
-  <input type="text" id="sexo" name="sexo" [(ngModel)]="sexo" />
-  <input (click)="filter()" type="submit" value="Filtrar" class="filter-input"/>
 </form>
 <div class="grid-container">
   <div *ngFor="let person of persons">
