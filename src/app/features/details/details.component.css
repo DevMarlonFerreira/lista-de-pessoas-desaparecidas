@@ -18,5 +18,9 @@
 }
 
 img {
-  object-fit: scale-down;
+  width: 100%;
+}
+
+.cartaz {
+  word-break: break-all;
 }
