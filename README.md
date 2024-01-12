@@ -12,27 +12,27 @@ Consumindo a [API](https://www.postman.com/gold-eclipse-54591/workspace/processo
 <!-- GETTING STARTED -->
 <h2 tabindex="-1" dir="auto"><a id="getting-started" class="anchor" aria-hidden="true" tabindex="-1" href="#getting-started">🚀 Getting Started 🚀</h2>
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
+### Pré-requisitos
 
 - npm
+
   ```sh
   npm install npm@latest -g
   ```
 
-### Installation
+- angular
+  ```sh
+  npm install -g @angular/cli
+  ```
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+### Instalação
 
-1. Clone the repo
+1. Clone o repositório
    ```sh
    git clone https://github.com/DevMarlonFerreira/lista-de-pessoas-desaparecidas.git
    ```
-2. Install NPM packages
+2. Instale os NPM packages
    ```sh
    npm install
    ```
@@ -40,7 +40,7 @@ _Below is an example of how you can instruct your audience on installing and set
 <!-- USAGE EXAMPLES -->
 <h2 tabindex="-1" dir="auto"><a id="user-content--usage" class="anchor" aria-hidden="true" tabindex="-1" href="#-usage">⚡ Usage ⚡</h2>
 
-Executar com "npm run start".
+Executar no terminal da raiz do projeto o comando "npm run start".
 
 <h2 tabindex="-1" dir="auto"><a id="user-content--built-with" class="anchor" aria-hidden="true" tabindex="-1" href="#-built-with">🔧 Built With 🔧</h2>
 
