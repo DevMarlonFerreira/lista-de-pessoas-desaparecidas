@@ -1,0 +1,14 @@
+<ng-container *ngIf="person">
+  <div (click)="navigate(person.id)" class="card">
+    <img src="{{ person.urlFoto }}" alt="{{ person.nome }}" class="person" />
+    <div>
+      <b>{{ person.nome }}</b>
+    </div>
+    <div>
+      <b>Idade: {{ person.idade }}</b>
+    </div>
+    <div>
+      <b>Sexo: {{ person.sexo }}</b>
+    </div>
+  </div>
+</ng-container>

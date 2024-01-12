@@ -1,0 +1,8 @@
+.card {
+  cursor: pointer;
+}
+
+.person {
+  width: 500px;
+  height: 500px;
+}

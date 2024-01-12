@@ -1,14 +1,25 @@
 {
   "name": "lista-de-pessoas-desaparecidas",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "author": "Marlon Ferreira",
+  "license": "ISC",
+  "private": true,
+  "description": "App built with Angular",
+  "homepage": "https://github.com/DevMarlonFerreira/lista-de-pessoas-desaparecidas#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevMarlonFerreira/lista-de-pessoas-desaparecidas"
+  },
+  "bugs": {
+    "url": "https://github.com/DevMarlonFerreira/lista-de-pessoas-desaparecidas/issues"
+  },
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --proxy-config proxy.conf.mjs --verbose",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "^17.0.0",
     "@angular/common": "^17.0.0",

@@ -1,27 +1,39 @@
-# ListaDePessoasDesaparecidas
+<a name="readme-top"></a>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.10.
+<h1 align="center">Lista de pessoas desaparecidas</h1>
+  
+<!-- ABOUT THE PROJECT -->
+<h2 tabindex="-1" dir="auto"><a id="user-content--about-the-project" class="anchor" aria-hidden="true" tabindex="-1" href="#about-the-project">🔭 About The Project 🔭</h2>
 
-## Development server
+Aplicativo que exibe uma lista de pessoas desaparecidas.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Consumindo a [API](https://www.postman.com/gold-eclipse-54591/workspace/processos/collection/10123255-d6165ca9-6533-405d-a8cb-f9ffd3640286) de pessoas desaparecidas fornecida pela Polícia Judiciária Civil de Mato Grosso.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<h2 tabindex="-1" dir="auto"><a id="user-content--built-with" class="anchor" aria-hidden="true" tabindex="-1" href="#-built-with">🔧 Built With 🔧</h2>
 
-## Build
+[![Html][Html.org]][Html-url]
+[![Css][Css.org]][Css-url]
+[![Typescript][Typescript.org]][Typescript-url]
+[![Angular][Angular.io]][Angular-url]
+[![Editorconfig][Editorconfig.org]][Editorconfig-url]
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+[Html.org]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
+[Html-url]: https://developer.mozilla.org/pt-BR/docs/Web/HTML
 
-## Running end-to-end tests
+[Css.org]: https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
+[Css-url]: https://developer.mozilla.org/pt-BR/docs/Web/CSS
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+[Typescript.org]: https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white
+[Typescript-url]: https://www.typescriptlang.org
 
-## Further help
+[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
+[Angular-url]: https://angular.io
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+[Editorconfig.org]: https://img.shields.io/badge/Editor%20Config-E0EFEF?style=for-the-badge&logo=editorconfig&logoColor=000
+[Editorconfig-url]: https://editorconfig.org/
+

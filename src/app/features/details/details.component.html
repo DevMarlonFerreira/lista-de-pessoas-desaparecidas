@@ -1,0 +1,48 @@
+<button (click)="navigate()">Voltar</button>
+<ng-container *ngIf="person">
+  <div class="card-details">
+    <div>
+      <img src="{{ person.urlFoto }}" alt="{{ person.nome }}" class="person" />
+    </div>
+    <div>
+      <b>{{ person.nome }}</b>
+    </div>
+    <div>
+      <b>Idade: {{ person.idade }}</b>
+    </div>
+    <div>
+      <b>Sexo: {{ person.sexo }}</b>
+    </div>
+    <div>
+      <b
+        >Data do desaparecimento:
+        {{ person.ultimaOcorrencia.dtDesaparecimento }}</b
+      >
+    </div>
+    <div>
+      <b
+        >Local do desaparecimento:
+        {{ person.ultimaOcorrencia.localDesaparecimentoConcat }}</b
+      >
+    </div>
+    <div>
+      <b
+        >Informações:
+        {{ person.ultimaOcorrencia.ocorrenciaEntrevDesapDTO.informacao }}</b
+      >
+    </div>
+    <div>
+      <b
+        >Vestimenta:
+        {{
+          person.ultimaOcorrencia.ocorrenciaEntrevDesapDTO
+            .vestimentasDesaparecido
+        }}</b
+      >
+    </div>
+  </div>
+  <div>
+    Compartilhe o cartaz nas redes sociais.
+    <p>{{ person.ultimaOcorrencia.listaCartaz[0].urlCartaz }}</p>
+  </div>
+</ng-container>

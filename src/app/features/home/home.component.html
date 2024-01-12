@@ -1,0 +1,35 @@
+<h2>
+  Filtragem
+</h2>
+<form class="form-filter">
+  <label for="fname">Nome:</label>
+  <input type="text" id="search" name="nome" [(ngModel)]="nome" />
+  <label for="fname">Idade:</label>
+  <input
+    id="idade"
+    name="idade"
+    type="number"
+    [(ngModel)]="idade"
+  />
+  <label for="fname">Sexo:</label>
+  <input type="text" id="sexo" name="sexo" [(ngModel)]="sexo" />
+  <input (click)="filter()" type="submit" value="Filtrar" class="filter-input"/>
+</form>
+<div class="grid-container">
+  <div *ngFor="let person of persons">
+    <app-card class="grid-item" [person]="person"> </app-card>
+  </div>
+</div>
+<div class="pagination">
+  <span>
+    <ng-container *ngIf="page > 0">
+      <button (click)="pagination(-1)" class="page-button">
+        {{ page }}
+      </button>
+    </ng-container>
+  </span>
+  Página: {{ page + 1 }}
+  <button (click)="pagination(1)" class="page-button">
+    {{ page + 2 }}
+  </button>
+</div>
